@@ -1,13 +1,19 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  // background-color: #1C0A00;
+  // color: #4C3A51;
+  
+  color: rgba(255, 255, 255, 0.922);
+
 }
 
 html {
   font-size: 62.5%;
 }
 
-body {
-  padding: 2rem;
-}
+// body {
+//   padding: 2rem;
+// }

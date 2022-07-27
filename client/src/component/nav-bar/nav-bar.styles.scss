@@ -1,11 +1,50 @@
+$mainHeading: #66BFBF;
+
 .nav-bar-box {
     font-size: 1.5rem;
     text-align: center;
-    background-color: rgba(0, 255, 255, 0.458);
+    // background-color: rgba(0, 255, 255, 0.458);
     padding: 3rem;
+    background-color: #000f1b;
 
-    .nav-bar-route {
+    .nav-bar-route-box {
         display: flex;
+        justify-content: center;
+        padding: 3rem;
+
+        .nav-bar-route {
+            margin: 0 3rem 0 3rem;
+            
+            .nav-bar-link {
+                text-decoration: none;
+                font-size: 2rem;
+                color: rgba(255, 255, 255, 0.955);
+            }
+        }
+    }
+
+    .nav-bar-headline {
+        padding: 3rem;
+        margin-top: 3rem;
+
+        h1 {
+            font-size: 6rem;
+        }
+        
+    }
+    .nav-bar-sub-headline {
+        padding-bottom: 6rem;
+    }
+
+    .nav-bar-button-box {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10rem;
+
+        .nav-bar-button {
+            margin: 0 1rem 0 1rem;
+        }
+
     }
 
 }
