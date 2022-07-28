@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.styles.scss'
 import UniButton from '../../component/button/button.component'
+import hungImg from '../../img/hung.png'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
           <h3>About Me</h3>
           <div className='home-about-content'>
               <div className='home-about-img'>
-                <img  src="https://scontent.fqlf1-2.fna.fbcdn.net/v/t39.30808-1/227518076_1990864314423575_8697611656826296771_n.jpg?stp=dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=kMcuNE78tBEAX-eeg7n&tn=RfcubYQB7T0gllfL&_nc_ht=scontent.fqlf1-2.fna&oh=00_AT9pt5JD5DZuQ8T1w_tWBrIgfFh-euqVImuVdwjSiwHcGg&oe=62E59A4E" alt="personalImage" />
+                <img  src={hungImg} alt="personalImage" width={200}/>
               </div>
               <div className='home-about-text'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, deserunt eos. Magnam pariatur culpa libero officia, eos quas voluptatem perferendis excepturi. Blanditiis sunt tempore odit eaque quo voluptas magni, consequuntur magnam modi fugiat vel excepturi quaerat sit exercitationem sint aut. Magnam vel esse impedit, ipsum dignissimos culpa obcaecati harum dolor!</p>

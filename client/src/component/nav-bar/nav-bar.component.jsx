@@ -3,6 +3,8 @@ import { Link, Outlet } from 'react-router-dom'
 import { Fragment } from 'react'
 import UniButton from '../button/button.component'
 import Footer from '../footer/footer.component'
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+
 import './nav-bar.styles.scss'
 
 const NavBar = () => {
@@ -17,8 +19,8 @@ const NavBar = () => {
         </div>
         
         <div className='nav-bar-button-box'>
-            <div className='nav-bar-button'><UniButton variant="outline-light" buttonName='LinkedIn'/></div>
-            <div className='nav-bar-button'><UniButton variant="info" buttonName="GitHub"/></div>
+            <div className='nav-bar-button'><UniButton icon={<BsLinkedin size="1.5rem"/>} variant="outline-light" buttonName='LinkedIn'/></div>
+            <div className='nav-bar-button'><UniButton icon={<BsGithub size="1.5rem"/>} variant="info" buttonName="GitHub"/></div>
         </div>
 
         <div className='nav-bar-route-box'>
@@ -34,9 +36,9 @@ const NavBar = () => {
                 <Link className='nav-bar-link' to='contact'>Contact</Link>
             </div>
 
-            <div className='nav-bar-route'>
+            {/* <div className='nav-bar-route'>
                 <Link className='nav-bar-link' to='/blog'>Blog</Link>
-            </div>
+            </div> */}
         </div>
     </div>
     <Outlet/>

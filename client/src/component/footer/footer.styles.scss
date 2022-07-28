@@ -6,9 +6,22 @@
     padding: 3rem;
     background-color: #231955;
 
-    .footer-link {
-        text-decoration: none;
-        padding: 1rem;
-        color: white ;
+
+    .footer-social-link {
+        padding-top: 3rem;
+
+        .footer-link {
+            text-decoration: none;
+            padding: 1rem;
+            color: white ;
+            
+        }
     }
+    .footer-copyright {
+        text-align: center;
+        padding-top: 2rem;
+        width: 20rem;
+    }
+
+
 }

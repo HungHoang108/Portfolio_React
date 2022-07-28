@@ -1,0 +1,17 @@
+.contact-route-box {
+    display: flex;
+    justify-content: center;
+    background-color: #000f1b;
+    padding: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+
+    .contact-route-form {
+        padding: 3rem;
+        width: 40%;
+
+        .contact-route-nameAndEmail {
+            height: 33px;
+        }
+    }
+}

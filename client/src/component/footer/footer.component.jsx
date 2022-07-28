@@ -1,18 +1,21 @@
 import React from 'react'
+import { BsLinkedin, BsGithub, BsTwitter, BsBootstrapFill } from "react-icons/bs";
+import { FaReact, FaSass } from "react-icons/fa";
 import './footer.styles.scss'
 
 const Footer = () => {
   return (
     <div className='footer-box'>
         <div className='footer-social-link'>
-            <a class="footer-link" href="https://www.linkedin.com/in/vhunghoang/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://github.com/HungHoang108">Github</a>
+            <a class="footer-link" href="https://www.linkedin.com/in/vhunghoang/"> <BsLinkedin size='2rem'/> LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/"><BsTwitter size='2rem'/> Twitter</a>
+            <a class="footer-link" href="https://github.com/HungHoang108"><BsGithub size='2rem'/> Github</a>
             
         </div>
         <div className='footer-copyright'>
-            <p>The web is made using Reactjs, SCSS, Bootstrap</p>
+            
             <p>© Hung Hoang. 2022</p>
+            <p><FaReact size='1.5rem'/> <BsBootstrapFill size='1.5rem'/> <FaSass size='1.5rem'/></p>
         </div>
     </div>
   )

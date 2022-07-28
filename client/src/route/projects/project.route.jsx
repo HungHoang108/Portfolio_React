@@ -1,9 +1,18 @@
 import React from 'react'
+import ProjectCard from '../../component/card/card.component'
+
+import './project.styles.scss'
 
 const Project = () => {
   return (
-    <div>
-        <h1>projects</h1>
+    <div className='project-route'>
+      <div className='project-route-card'>
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      <ProjectCard/>
+      </div>
+
     </div>
   )
 }
