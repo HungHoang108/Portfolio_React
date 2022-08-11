@@ -4,19 +4,20 @@ import Button from 'react-bootstrap/Button';
 
 import './card.styles.scss'
 
-const ProjectCard = () => {
+const ProjectCard = ({title, description, image, url, gitHubUrl}) => {
   return (
     <div className='card-route-box'>
         <Card className='card-box'>
             <div className='card-route-content'>
-                <Card.Img variant="top" src="https://picsum.photos/300/100" />
+                <Card.Img variant="top" src={image}/>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title className='card-route-title'><b>{title}</b></Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nobis ab, dicta dignissimos magni tempore omnis odio, commodi vero blanditiis beatae officiis unde. Dignissimos, voluptatum! Maiores voluptatum alias illum saepe!
+                    {description}
                     </Card.Text>
-                    <Button className='card-route-button' variant="info">Github</Button>
+                    <Button href={gitHubUrl} target="_blank" className='card-route-button btn-github' variant="info">Github</Button>
+                    {url && <Button href={url} target="_blank" className='card-route-button' variant="success">Live Demo</Button>}
+                    
                 </Card.Body>
             </div>
 

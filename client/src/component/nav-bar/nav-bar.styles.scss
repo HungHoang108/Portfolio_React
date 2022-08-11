@@ -4,7 +4,7 @@ $mainHeading: #66BFBF;
     font-size: 1.5rem;
     text-align: center;
     // background-color: rgba(0, 255, 255, 0.458);
-    padding: 3rem;
+    padding: 5rem 3rem 3rem 3rem;
     background-color: #000f1b;
 
     .nav-bar-route-box {
@@ -15,12 +15,19 @@ $mainHeading: #66BFBF;
 
         .nav-bar-route {
             margin: 0 3rem 0 3rem;
+
             
             .nav-bar-link {
                 text-decoration: none;
                 font-size: 2rem;
                 color: rgba(255, 255, 255, 0.955);
+
             }
+        }
+
+        .home {
+        
+            border-bottom: 2px solid aqua;
         }
     }
 
@@ -29,7 +36,7 @@ $mainHeading: #66BFBF;
         margin-top: 3rem;
 
         h1 {
-            font-size: 6rem;
+            font-size: 5rem;
         }
         
     }

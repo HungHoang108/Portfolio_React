@@ -8,10 +8,20 @@
 
     .contact-route-form {
         padding: 3rem;
-        width: 40%;
+        width: 60rem;
+
+        h4 {
+            margin-bottom: 3rem;
+        }
 
         .contact-route-nameAndEmail {
-            height: 33px;
+            height: 37px;
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
         }
+    }
+
+    .contact-route-form-message {
+        font-size: 1.2rem;
     }
 }

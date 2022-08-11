@@ -1,21 +1,30 @@
 import React from 'react'
-import './home.styles.scss'
 import UniButton from '../../component/button/button.component'
 import hungImg from '../../img/hung.png'
 
+
+import './home.styles.scss'
+
 const Home = () => {
+
   return (
     <div className='home-box'>
       
         <div className='home-about-box'>
-          <h3>About Me</h3>
+          
           <div className='home-about-content'>
               <div className='home-about-img'>
                 <img  src={hungImg} alt="personalImage" width={200}/>
               </div>
-              <div className='home-about-text'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, deserunt eos. Magnam pariatur culpa libero officia, eos quas voluptatem perferendis excepturi. Blanditiis sunt tempore odit eaque quo voluptas magni, consequuntur magnam modi fugiat vel excepturi quaerat sit exercitationem sint aut. Magnam vel esse impedit, ipsum dignissimos culpa obcaecati harum dolor!</p>
-                  <UniButton variant="info" buttonName="Let's talk"/>
+
+              <div className='home-about-textbox'>
+                <div className='home-about-text'>
+                  <p>Passionate Software engineer, proficient in HTML, CSS, Reactjs, Notejs, MongoDB, Expressjs .</p>
+                </div>
+                
+              </div>
+              <div className='home-about-button'>
+                <UniButton variant="info" buttonName="Let's talk"/>
               </div>
           </div>
         </div>
@@ -24,32 +33,34 @@ const Home = () => {
           <h3>Education</h3>
           <div className='home-edu-school'>
             <div className='home-edu-xamk'>
-              <h5>Haaga-Helia Ammattikorkeakokulu</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum, voluptates nulla tempore quasi veniam suscipit consequatur pariatur, officia eius quae alias! Facilis sit provident veritatis, accusantium officia ut dignissimos deserunt beatae? Obcaecati repudiandae, corporis, ad quis dolores ratione repellendus commodi, minima sunt quia veritatis unde libero aspernatur. Pariatur, earum. </p>
+
+              <h4>Haaga-Helia Ammattikorkeakokulu</h4>
+              <p>The program focuses on training student to be not just a coder but a software engineer who are able to work on end to end proccess of a project from idea to final product. </p>
             </div>
 
             <div className='home-edu-helia'>
-              <h5>South-Eastern Finland UAS</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, vitae reprehenderit iure esse assumenda adipisci sapiente facilis! Architecto aut aliquid consectetur, magni reprehenderit ab? Fugit nobis officia odio ipsa pariatur cumque, impedit dolores reprehenderit ad quo quod magnam magni ut nulla ab labore qui! Nulla cumque error exercitationem ullam ad, tenetur, vitae voluptate accusantium mollitia excepturi, iste quas dolores natus?</p>
+              <h4 >South-Eastern Finland UAS</h4>
+              <p>BBA | Ecommerce | Digital business | International Entrepreneurship | International Business | Marketing</p>
             </div>
           </div>        
         </div>
 
         <div className='home-skill'>
           <div>
-            <h3>Skills</h3>
+            <h3>My Skills</h3>
             
             <div className='home-skill-tech'>
-              <h5>Techs</h5>
+              <h5>Tech</h5>
               <div className='home-skill-tech-col'>
-                  <h4>Html SCSS</h4>
-                  <h4>JavaScript</h4>
-                  <h4>ReactJs/Redux</h4>
-                  <h4>NodeJs, Express</h4>
-                  <h4>Bootstrap</h4>
-                  <h4>RestAPI</h4>
-                  <h4>MongoDB</h4>
-                  <h4>Firebase</h4>
+                <div className='home-skill-item'><h4>Html SCSS</h4></div>
+                <div className='home-skill-item'><h4>JavaScript</h4></div>
+                <div className='home-skill-item'><h4>ReactJs/Redux</h4></div>
+                <div className='home-skill-item'><h4>NodeJs, Express</h4></div>
+                <div className='home-skill-item'><h4>Bootstrap</h4></div>
+                <div className='home-skill-item'><h4>Rest API</h4></div>
+                <div className='home-skill-item'><h4>Git</h4></div>
+                <div className='home-skill-item'><h4>MongoDB</h4></div>
+                <div className='home-skill-item'><h4>Firebase</h4></div>
               </div>
             </div>
 
@@ -61,6 +72,7 @@ const Home = () => {
                   <h4>E-commerce</h4>
                   <h4>Shopify</h4>
                   <h4>SEO</h4>
+                  <h4>Digital Marketing</h4>
               </div>
             </div>
             

@@ -1,80 +1,85 @@
 .home-box {
-    padding: 3rem;
+    // padding: 3rem;
     font-size: 1.3rem;
     background-color: #000f1b;
-    h3, h4 {
-        text-align: center;
-        margin-bottom: 8rem;
-    }
+
     h5 {
         text-align: center;
         margin-bottom: 3rem;
     }
 
     .home-about-box {
-        padding: 3rem 7rem 3rem 7rem;
+        padding: 3rem 7rem 13rem 7rem;
         
         .home-about-content {
-            display: grid;
-
-            justify-content: center;
-
-            @media (min-width: 480px){
-                grid-template-columns: repeat(1, 1fr);
-            }
-            @media (min-width: 980px){
-                grid-template-columns: repeat(2, 1fr);
-            }
 
             .home-about-img {
                 display: flex;
                 justify-content: center;
                 padding-bottom: 3rem;
             }
-            .home-about-text {
+            .home-about-textbox {
+                display: flex;
+                justify-content: center;
+                padding: 3rem 0 2rem 0;
+
+                .home-about-text {
+                    width: 70%;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            .home-about-button {
                 text-align: center;
             }
-
         }
     }
 
-    .home-edu {
-        
-        padding: 3rem 7rem 3rem 7rem;
-
+    .home-edu {  
+        padding: 3rem 7rem 13rem 7rem;
+        h3 {
+            text-align: center;
+            margin-bottom: 5rem;
+            color: #5dc7ec;
+        }
         .home-edu-school{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            h4 {
+                color: #5dc7ec;
+                margin-bottom: 3rem;
+            }
         }
 
         .home-edu-xamk, .home-edu-helia {
-            width: 500px;
+            width: 450px;
             padding: 3rem;
             text-align: center;
         }
-        // .home-edu-helia {
-        //     width: 500px;
-        //     padding: 3rem;
-        //     text-align: center;
-        // }
+
     }
 
     .home-skill {
+        h3 {
+            text-align: center;
+            margin-bottom: 5rem;
+            color: #5dc7ec;
+        }
         padding: 3rem 7rem 3rem 7rem;
         h4 {
-            color: #34d7d7 ;
-            // color: #0096FF;
-            // width: 40%;
+            color: #5dc7ec;
             margin-bottom: 5rem;
         }
         .home-skill-tech-col {
             display: grid;
-            // padding: 5rem 20rem 0 20rem;
             grid-gap: 6px;
-            margin-bottom: 5rem;;
+            margin-bottom: 5rem;
+            justify-items: center;
 
-            @media (min-width: 480px){
+
+            @media (min-width: 350px){
                 grid-template-columns: repeat(2, 1fr);
             }
 
@@ -89,10 +94,11 @@
 
         .home-skill-business-col {
             display: grid;
-            // padding: 5rem 20rem 0 20rem;
+            justify-items: center;
             grid-gap: 16px;
 
-            @media (min-width: 480px){
+
+            @media (min-width: 350px){
                 grid-template-columns: repeat(2, 1fr);
             }
 

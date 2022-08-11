@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import { Fragment } from 'react'
 import UniButton from '../button/button.component'
@@ -8,6 +8,21 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 import './nav-bar.styles.scss'
 
 const NavBar = () => {
+    const [navStyle, setNavStyle] = useState(null)
+
+
+    const navHome = () => {
+        setNavStyle("home")
+    }
+
+    const navProject = () => {
+        setNavStyle("project")
+    }
+
+    const navContact = () => {
+        setNavStyle("contact")
+    }
+
   return (
     <Fragment>
     <div className='nav-bar-box'>
@@ -19,21 +34,30 @@ const NavBar = () => {
         </div>
         
         <div className='nav-bar-button-box'>
-            <div className='nav-bar-button'><UniButton icon={<BsLinkedin size="1.5rem"/>} variant="outline-light" buttonName='LinkedIn'/></div>
-            <div className='nav-bar-button'><UniButton icon={<BsGithub size="1.5rem"/>} variant="info" buttonName="GitHub"/></div>
+            <div className='nav-bar-button'><UniButton url='https://www.linkedin.com/in/vhunghoang/' icon={<BsLinkedin size="1.5rem"/>} variant="outline-light" buttonName='LinkedIn'/></div>
+            <div className='nav-bar-button'><UniButton url='https://github.com/HungHoang108' icon={<BsGithub size="1.5rem"/>} variant="info" buttonName="GitHub"/></div>
         </div>
 
-        <div className='nav-bar-route-box'>
-            <div className='nav-bar-route'>
-                <Link className='nav-bar-link' to='/'>Home</Link>
+        <div className=' nav-bar-route-box'>
+            <div onClick={navHome}  className='nav-bar-route'  style={{
+                borderBottom: (navStyle === 'home' || navStyle === null)  ? '2px solid aqua' : ''
+              
+            }}  >
+                <Link  className='nav-bar-link' to='/'>Home</Link>
             </div>
 
-            <div className='nav-bar-route'>
+            <div onClick={navProject}  className='nav-bar-route' style={{
+                borderBottom: navStyle === 'project' ? '2px solid aqua' : ''
+              
+            }}>
                 <Link className='nav-bar-link' to='/project'>Projects</Link>
             </div>
 
-            <div className='nav-bar-route'>
-                <Link className='nav-bar-link' to='contact'>Contact</Link>
+            <div onClick={navContact}  className='nav-bar-route' style={{
+                borderBottom: navStyle === 'contact' ? '2px solid aqua' : ''
+              
+            }}>
+                <Link  className='nav-bar-link' to='contact' >Contact</Link>
             </div>
 
             {/* <div className='nav-bar-route'>
