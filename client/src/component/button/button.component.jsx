@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import './button.styles.scss'
 
-const UniButton = ({buttonName, variant, icon, url}) => {
+const UniButton = ({buttonName, variant, icon, url, mailto}) => {
 
 
   return (

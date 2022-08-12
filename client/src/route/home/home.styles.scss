@@ -25,6 +25,9 @@
 
                 .home-about-text {
                     width: 70%;
+                    .home-about-text-hello {
+                        color: #5dc7ec ;
+                    }
                 }
                 p {
                     text-align: center;
@@ -57,6 +60,10 @@
             width: 450px;
             padding: 3rem;
             text-align: center;
+
+            .home-edu-haaga-hashtag {
+                color: #5dc7ec;
+            }
         }
 
     }

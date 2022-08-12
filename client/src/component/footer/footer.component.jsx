@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
         <div className='footer-copyright'>
             
-            <p>© Hung Hoang. 2022</p>
-            <p><FaReact size='1.5rem'/> <BsBootstrapFill size='1.5rem'/> <FaSass size='1.5rem'/></p>
+            <p>© Made by Hung Hoang. 2022</p>
+            <p><FaReact size='1.5rem'/> React <BsBootstrapFill size='1.5rem'/> Bootstrap & <FaSass size='1.5rem'/>SCSS <br />and Emailjs</p>
         </div>
     </div>
   )

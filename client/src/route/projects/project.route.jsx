@@ -13,13 +13,7 @@ const Project = () => {
   return (
     <div className='project-route'>
       <div className='project-route-card'>
-      <ProjectCard
-      title='E-commerce website'
-      description='An Udemy course project with Front-End: ReactJs and back-end: Firebase'
-      image={EcomImg}
-      gitHubUrl='https://github.com/HungHoang108/ecom-web'
-      url='https://genuine-cupcake-ce7602.netlify.app/'
-      />
+
       <ProjectCard
       title='Search Helsinki'
       description='The app using Helsinki open API data to allow users search for places, events and incoming activities in the city. Stacks: Reactjs, NodeJs'
@@ -28,27 +22,34 @@ const Project = () => {
       />
       <ProjectCard
       title='Note Keeper'
-      description='A full-stack app which allows user to take notes. Stack: MongoDB, Express, React, Nodejs'
+      description='A full-MERN stack app which allows user sign up with Email/ Google, login to take notes. Stack: MongoDB, Express, React, Nodejs, Firebase (authentication).'
       image={NoteKeeper}
       gitHubUrl='https://github.com/HungHoang108/NoteKeeper-FullStack/tree/master'
       />
+            <ProjectCard
+      title='Crwn E-com'
+      description='A fully functional Udemy project with Front-End: ReactJs, back-end: Firebase, and Stripe payment'
+      image={EcomImg}
+      gitHubUrl='https://github.com/HungHoang108/ecom-web'
+      url='https://crwnclothing-ecom.netlify.app/'
+      />
       <ProjectCard
       title='My Portfolio'
-      description='The app is this website you are looking at. Made with Reactjs, SCSS, and Bootstrap'
+      description='A fully responsive website, the one you are looking at. Made with Reactjs, SCSS, Bootstrap, and Emailjs.'
       image={Portfolio}
       gitHubUrl='https://github.com/HungHoang108/Portfolio_React'
       />
 
       <ProjectCard
       title='Natours'
-      description='An Udemy course project with advanced Html and CSS'
+      description='An Udemy course project with advanced Html and CSS.'
       image={Natour}
       gitHubUrl='https://github.com/HungHoang108/Advanced-Css-Natours'
       />
 
       <ProjectCard
       title='DrumkitOnline'
-      description='A challange from my Udemy course - The Complete 2022 Web Development Bootcamp by Dr. Angela Yu. The drumkit allows users to play directly on the browswer by keyboards or mouse control. Stack: Html, CSS, JavsScript'
+      description='An Udemy project, the drumkit allows users to play music directly on the browser using keyboards or mouse control. Stack: Html, CSS, JavsScript.'
       image={drumKit}
       url='https://hunghoang108.github.io/DrumkitOnline/'
       gitHubUrl='https://github.com/HungHoang108/DrumkitOnline'
