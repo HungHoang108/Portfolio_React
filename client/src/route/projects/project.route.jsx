@@ -22,7 +22,7 @@ const Project = () => {
       />
       <ProjectCard
       title='Note Keeper'
-      description='A full-MERN stack app which allows user sign up with Email/ Google, login to take notes. Stack: MongoDB, Express, React, Nodejs, Firebase (authentication).'
+      description='A full-MERN stack app which allows user register, login with Google or Email/username to take notes. Stack: MongoDB, Express, React, Nodejs, Firebase (authentication).'
       image={NoteKeeper}
       gitHubUrl='https://github.com/HungHoang108/NoteKeeper-FullStack/tree/master'
       />
@@ -35,7 +35,7 @@ const Project = () => {
       />
       <ProjectCard
       title='My Portfolio'
-      description='A fully responsive website, the one you are looking at. Made with Reactjs, SCSS, Bootstrap, and Emailjs.'
+      description='A fully responsive personal website, the one you are looking at. Made with Reactjs, SCSS, Bootstrap, and Emailjs.'
       image={Portfolio}
       gitHubUrl='https://github.com/HungHoang108/Portfolio_React'
       />
