@@ -21,7 +21,7 @@ const Home = () => {
                 
                 <div className='home-about-text'>
                   
-                  <p><span className='home-about-text-hello'>Hello!</span>  My name is Hung, a software engineering student at Haaga-Helia UAS. I am passionate about programming and solving problems. My friends see me as a trustworthy person with ambition and never give up mindset.</p>
+                  <p><span className='home-about-text-hello'>Hello!</span>  My name is Hung, a software engineering student at Haaga-Helia UAS. I am passionate about programming and solving problems. My friends see me as a trustworthy person with ambition and a never-give-up mindset.</p>
                 </div>
                 
               </div>
@@ -69,6 +69,7 @@ const Home = () => {
                 <div className='home-skill-item'><h4>Git</h4></div>
                 <div className='home-skill-item'><h4>MongoDB</h4></div>
                 <div className='home-skill-item'><h4>Firebase</h4></div>
+                <div className='home-skill-item'><h4>TypeScirpt</h4></div>
                 {/* <div className='home-skill-item'><h4>TypeScript</h4></div>
                 <div className='home-skill-item'><h4>Jest</h4></div>
                 <div className='home-skill-item'><h4>Firebase</h4></div> */}
