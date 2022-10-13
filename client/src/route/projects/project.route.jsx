@@ -4,7 +4,7 @@ import EcomImg from '../../img/ecom.png'
 import HsApi from '../../img/Helsiki-API.png'
 import NoteKeeper from '../../img/NoteKeeper.png'
 import Natour from '../../img/Na-tours.png'
-import Portfolio from '../../img/portfolio.png'
+import JokeRank from '../../img/JokeRank.png'
 import drumKit from '../../img/drumKit.png'
 
 import './project.styles.scss'
@@ -34,10 +34,10 @@ const Project = () => {
       url='https://crwnclothing-ecom.netlify.app/'
       />
       <ProjectCard
-      title='My Portfolio'
-      description='A fully responsive personal website, the one you are looking at. Made with Reactjs, SCSS, Bootstrap, and Emailjs.'
-      image={Portfolio}
-      gitHubUrl='https://github.com/HungHoang108/Portfolio_React'
+      title='JokeRank'
+      description='A basic crud C# .Net app with authentification and search. Allowing users to register, login and create posts'
+      image={JokeRank}
+      gitHubUrl='https://github.com/HungHoang108/JokeRank'
       />
 
       <ProjectCard
