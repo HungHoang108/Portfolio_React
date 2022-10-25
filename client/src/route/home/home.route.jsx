@@ -39,8 +39,7 @@ const Home = () => {
               <h4>Haaga-Helia Ammattikorkeakokulu <span><h6>Business Information Technology | Software Engineering</h6></span> </h4>
               {/* <h5>Business Information Technology</h5> */}
               {/* <p>The program is a combination between tech and business. Technology will however be a major part which covers a full process of software development</p> */}
-              <p>Identify, design and create software app based on client's needs with suitable methods and tools. Understanding importance of testing and quality inssurance 
-                in a successful project. <br /><br /><span><h5 className='home-edu-haaga-hashtag'>#fontenddev #fullstack #backend</h5></span></p>
+              <p>Identify, design, and create software apps based on client needs with suitable methods and tools. Understanding the importance of testing and quality insurance in a successful project. <br /><br /><span><h5 className='home-edu-haaga-hashtag'>#fontenddev #fullstack #backend</h5></span></p>
               
             </div>
 
