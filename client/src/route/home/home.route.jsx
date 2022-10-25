@@ -62,7 +62,7 @@ const Home = () => {
               <div className='home-skill-tech-col'>
                 <div className='home-skill-item'><h4>Html SCSS</h4></div>
                 <div className='home-skill-item'><h4>JavaScript</h4></div>
-                <div className='home-skill-item'><h4>ReactJs/Redux</h4></div>
+                <div className='home-skill-item'><h4>ReactJ, Redux</h4></div>
                 <div className='home-skill-item'><h4>NodeJs, Express</h4></div>
                 <div className='home-skill-item'><h4>Bootstrap</h4></div>
                 <div className='home-skill-item'><h4>Rest API</h4></div>
@@ -72,6 +72,8 @@ const Home = () => {
                 <div className='home-skill-item'><h4>TypeScirpt</h4></div>
                 <div className='home-skill-item'><h4>Java</h4></div>
                 <div className='home-skill-item'><h4>C# .NET</h4></div>
+                <div className='home-skill-item'><h4>Jest</h4></div>
+                <div className='home-skill-item'><h4>Azure</h4></div>
                 {/* <div className='home-skill-item'><h4>TypeScript</h4></div>
                 <div className='home-skill-item'><h4>Jest</h4></div>
                 <div className='home-skill-item'><h4>Firebase</h4></div> */}

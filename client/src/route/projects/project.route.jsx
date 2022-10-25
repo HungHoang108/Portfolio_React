@@ -28,7 +28,7 @@ const Project = () => {
       />
             <ProjectCard
       title='Crwn E-com'
-      description='A fully functional Udemy project with Front-End: ReactJs, back-end: Firebase, and Stripe payment'
+      description='A fully functional Udemy project with Front-End: ReactJs + Redux, back-end: Firebase, and Stripe payment'
       image={EcomImg}
       gitHubUrl='https://github.com/HungHoang108/ecom-web'
       url='https://crwnclothing-ecom.netlify.app/'
