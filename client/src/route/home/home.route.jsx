@@ -35,12 +35,8 @@ const Home = () => {
           <h3>Education</h3>
           <div className='home-edu-school'>
             <div className='home-edu-helia'>
-
               <h4>Haaga-Helia Ammattikorkeakokulu <span><h6>Business Information Technology | Software Engineering</h6></span> </h4>
-              {/* <h5>Business Information Technology</h5> */}
-              {/* <p>The program is a combination between tech and business. Technology will however be a major part which covers a full process of software development</p> */}
               <p>Identify, design, and create software apps based on client needs with suitable methods and tools. Understanding the importance of testing and quality insurance in a successful project. <br /><br /><span><h5 className='home-edu-haaga-hashtag'>#fontenddev #fullstack #backend</h5></span></p>
-              
             </div>
 
             <div className='home-edu-xamk'>
@@ -57,25 +53,29 @@ const Home = () => {
             <h3>My Skills</h3>
             
             <div className='home-skill-tech'>
-              <h5>Tech</h5>
               <div className='home-skill-tech-col'>
-                <div className='home-skill-item'><h4>Html SCSS</h4></div>
-                <div className='home-skill-item'><h4>JavaScript</h4></div>
-                <div className='home-skill-item'><h4>ReactJ, Redux</h4></div>
-                <div className='home-skill-item'><h4>NodeJs, Express</h4></div>
-                <div className='home-skill-item'><h4>Bootstrap</h4></div>
-                <div className='home-skill-item'><h4>Rest API</h4></div>
-                <div className='home-skill-item'><h4>Git</h4></div>
-                <div className='home-skill-item'><h4>MongoDB/SQL</h4></div>
-                <div className='home-skill-item'><h4>Firebase</h4></div>
-                <div className='home-skill-item'><h4>TypeScirpt</h4></div>
-                {/* <div className='home-skill-item'><h4>Java</h4></div> */}
-                <div className='home-skill-item'><h4>C# .NET</h4></div>
-                {/* <div className='home-skill-item'><h4>Jest</h4></div> */}
-                <div className='home-skill-item'><h4>Azure</h4></div>
-                {/* <div className='home-skill-item'><h4>TypeScript</h4></div>
-                <div className='home-skill-item'><h4>Jest</h4></div>
-                <div className='home-skill-item'><h4>Firebase</h4></div> */}
+                <div>
+                  <div>Frontend</div>
+                  <hr />
+                  <div className='home-skill-item'><h4>Html SCSS</h4></div>
+                  <div className='home-skill-item'><h4>JavaScript/TypeScript</h4></div>
+                  <div className='home-skill-item'><h4>ReactJ/Redux</h4></div>
+                  <div className='home-skill-item'><h4>Bootstrap</h4></div>
+                </div>
+                <div>
+                  <div>Backend</div>
+                  <hr />
+                  <div className='home-skill-item'><h4>NodeJs/Express</h4></div>
+                  <div className='home-skill-item'><h4>MongoDB</h4></div>
+                  <div className='home-skill-item'><h4>C# .NET</h4></div>
+                </div>
+                <div>
+                  <div>Others</div>
+                  <hr />
+                  <div className='home-skill-item'><h4>Git</h4></div>
+                  <div className='home-skill-item'><h4>Jest</h4></div>
+                  <div className='home-skill-item'><h4>Rest API</h4></div>
+                </div>
               </div>
             </div>
 
