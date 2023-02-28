@@ -21,7 +21,11 @@ const Home = () => {
                 
                 <div className='home-about-text'>
                   
-                  <p><span className='home-about-text-hello'>Hello!</span>  My name is Hung, a software engineering student at Haaga-Helia UAS. I am passionate about programming and solving problems. My friends see me as a trustworthy person with ambition and a never-give-up mindset.</p>
+                  <p><span className='home-about-text-hello'>Hello!</span>  My name is Hung Evan, I'm a full-stack developer trainee at
+                Integrify with a strong e-commerce background and a passion for building scalable applications. I've been focusing
+                on improving my skills in JavaScript and ReactJS, and now I'm also learning TypeScript, C#, and .NET. As an eager
+                learner, I'm always looking for new challenges and opportunities to grow as a developer. Please don't hesitate to
+                contact me if you're interested in collaborating or learning more about my work.</p>
                 </div>
                 
               </div>
