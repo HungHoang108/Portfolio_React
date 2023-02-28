@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer-box'>
         <div className='footer-social-link'>
             <a class="footer-link" href="https://www.linkedin.com/in/vhunghoang/"> <BsLinkedin size='2rem'/> LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/"><BsTwitter size='2rem'/> Twitter</a>
+            {/* <a class="footer-link" href="https://twitter.com/"><BsTwitter size='2rem'/> Twitter</a> */}
             <a class="footer-link" href="https://github.com/HungHoang108"><BsGithub size='2rem'/> Github</a>
             
         </div>
