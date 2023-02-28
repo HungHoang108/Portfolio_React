@@ -3,7 +3,7 @@ import ProjectCard from "../../component/card/card.component";
 import EcomImg from "../../img/ecom.png";
 import HsApi from "../../img/Helsiki-API.png";
 import NoteKeeper from "../../img/NoteKeeper.png";
-import Maito from "../../img/maito.png";
+import trainio from "../../img/trainio.png";
 import JokeRank from "../../img/JokeRank.png";
 import drumKit from "../../img/drumKit.png";
 
@@ -26,11 +26,11 @@ const Project = () => {
           gitHubUrl="https://github.com/HungHoang108/NoteKeeper-FullStack/tree/master"
         />
         <ProjectCard
-          title="Online store"
+          title="Luxelane"
           description="An ecommerce website build with ReactJs, Redux toolkit, TypeScript, SCSS and Jest testing"
           image={EcomImg}
-          gitHubUrl="https://github.com/HungHoang108/frontend-project-public"
-          url="https://merry-genie-108.netlify.app/"
+          gitHubUrl="https://github.com/HungHoang108/luxelane"
+          url="https://luxelane.netlify.app/"
         />
         <ProjectCard
           title="JokeRank"
@@ -40,11 +40,11 @@ const Project = () => {
         />
 
         <ProjectCard
-          title="Maito"
-          description="A static site with pure Html, SCSS, animation,flexbox and grid"
-          image={Maito}
-          gitHubUrl="https://github.com/HungHoang108/scss-assignment-integrify"
-          url="https://hunghoang108.github.io/scss-assignment-integrify/"
+          title="TRAINIO"
+          description="Trainio is a personal training tracking app, which allows tracking customers, trainings, calendar, and activity stats"
+          image={trainio}
+          gitHubUrl="https://github.com/HungHoang108/PersonalTrainer"
+          url="https://trainio.netlify.app/"
         />
 
         <ProjectCard
