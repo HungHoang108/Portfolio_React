@@ -51,12 +51,12 @@ const NavBar = () => {
           <div
             onClick={navHome}
             className="nav-bar-route"
-            style={{
-              borderBottom:
-                navStyle === "home" || navStyle === null
-                  ? "2px solid aqua"
-                  : "",
-            }}
+            // style={{
+            //   borderBottom:
+            //     navStyle === "home" || navStyle === null
+            //       ? "2px solid aqua"
+            //       : "",
+            // }}
           >
             <Link className="nav-bar-link" to="/">
               Home
@@ -66,9 +66,9 @@ const NavBar = () => {
           <div
             onClick={navProject}
             className="nav-bar-route"
-            style={{
-              borderBottom: navStyle === "project" ? "2px solid aqua" : "",
-            }}
+            // style={{
+            //   borderBottom: navStyle === "project" ? "2px solid aqua" : "",
+            // }}
           >
             <Link className="nav-bar-link" to="/project">
               Projects
@@ -78,9 +78,9 @@ const NavBar = () => {
           <div
             onClick={navContact}
             className="nav-bar-route"
-            style={{
-              borderBottom: navStyle === "contact" ? "2px solid aqua" : "",
-            }}
+            // style={{
+            //   borderBottom: navStyle === "contact" ? "2px solid aqua" : "",
+            // }}
           >
             <Link className="nav-bar-link" to="contact">
               Contact
