@@ -16,11 +16,11 @@ const Home = () => {
           <div className="home-about-textbox">
             <div className="home-about-text">
               <p>
-                <span className="home-about-text-hello">Hello!</span> My name is Hung Evan, I'm a full-stack developer trainee at
-                Integrify with a strong e-commerce background and a passion for building scalable applications. I've been focusing
-                on improving my skills in JavaScript and ReactJS, and now I'm also learning TypeScript, C#, and .NET. As an eager
-                learner, I'm always looking for new challenges and opportunities to grow as a developer. Please don't hesitate to
-                contact me if you're interested in collaborating or learning more about my work.
+                <span className="home-about-text-hello">Hello!</span> My name is Hung Evan, I'm a full-stack developer with a
+                strong e-commerce background and a passion for building scalable applications. My expertise is in JavaScript,
+                ReactJS, C#, and .NET. As an eager learner, I'm always looking for new challenges and opportunities to grow as a
+                developer. Please don't hesitate to contact me if you're interested in collaborating or learning more about my
+                work.
               </p>
             </div>
           </div>
