@@ -76,39 +76,36 @@ const Home = () => {
           <div className="home-skill-tech">
             <div className="home-skill-tech-col">
               <div>
-                {/* <div>Frontend</div> */}
                 <hr />
                 <div className="home-skill-item">
                   <h4>Html SCSS</h4>
                 </div>
                 <div className="home-skill-item">
-                  <h4>JavaScript/TypeScript</h4>
+                  <h4>JavaScript</h4>
                 </div>
                 <div className="home-skill-item">
-                  <h4>ReactJ/Redux</h4>
+                  <h4>ReactJs</h4>
                 </div>
               </div>
               <div>
-                {/* <div>Backend</div>'' */}
                 <hr />
                 <div className="home-skill-item">
-                  <h4>NodeJs/Express</h4>
+                  <h4>C#</h4>
                 </div>
                 <div className="home-skill-item">
-                  <h4>MongoDB</h4>
+                  <h4>.Net</h4>
                 </div>
                 <div className="home-skill-item">
-                  <h4>C# .NET</h4>
+                  <h4>SQL Server</h4>
                 </div>
               </div>
               <div>
-                {/* <div>Others</div> */}
                 <hr />
                 <div className="home-skill-item">
                   <h4>Git</h4>
                 </div>
                 <div className="home-skill-item">
-                  <h4>Jest</h4>
+                  <h4>jQuery</h4>
                 </div>
                 <div className="home-skill-item">
                   <h4>Rest API</h4>

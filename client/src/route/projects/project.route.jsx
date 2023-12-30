@@ -32,12 +32,12 @@ const Project = () => {
           gitHubUrl="https://github.com/HungHoang108/luxelane"
           url="https://luxelane.netlify.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="JokeRank"
           description="A basic crud C# .Net app with authentification and search. Allowing users to register, login and create posts"
           image={JokeRank}
           gitHubUrl="https://github.com/HungHoang108/JokeRank"
-        />
+        /> */}
 
         <ProjectCard
           title="TRAINIO"
